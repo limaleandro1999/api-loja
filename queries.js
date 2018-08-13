@@ -6,14 +6,7 @@ var options = {
 };
 
 var pgp = require('pg-promise')(options);
-const connection = {
-    host: 'localhost',
-    port: 5432,
-    database: 'loja',
-    user: 'postgres',
-    password: 'root'
-};
-var db = pgp(connection);
+var db = pgp(process.env.DATABASE_URL || 'postgres://postgres:root@localhost:5432/loja');
 
 module.exports = {
     getVendasPorVendedor: getVendasPorVendedor,
