@@ -2,4 +2,10 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Seja bem-vindo a #{title}
+  p Desenvolvida por Leandro Lima
+
+  p(style='white-space:pre;')
+    |<strong>Quais clientes mais compraram, filtrados por produtos:</strong> https://young-escarpment-45012.herokuapp.com/api/clientes-por-produto/:id-do-produto
+    |<strong>O total de vendas de cada vendedor no mês:</strong> https://young-escarpment-45012.herokuapp.com/api/vendas-por-vendedor
+    |<strong>O total de vendas de cada produto no mês:</strong> https://young-escarpment-45012.herokuapp.com/api/produtos-mais-vendidos
