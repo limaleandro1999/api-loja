@@ -17,7 +17,7 @@ https://young-escarpment-45012.herokuapp.com/api/clientes-por-produto/id-do-prod
 O total de vendas de cada vendedor no mês:
 
 ```
-https://young-escarpment-45012.herokuapp.com/api/clientes-por-produto/id-do-produto
+https://young-escarpment-45012.herokuapp.com/api/vendas-por-vendedor
 ```
 
 O total de vendas de cada produto no mês
